@@ -1,0 +1,13 @@
+{
+  "name": "DatoCMS Rails example app",
+  "description": "A barebones Rails app using DatoCMS GraphQL API",
+  "repository": "https://github.com/datocms/rails-demo",
+  "logo": "https://www.datocms-assets.com/205/1517846522-logo-dato-512_preview-1.png?h=150&w=150",
+  "keywords": ["rails", "datocms", "graphql"],
+  "env": {
+    "RAILS_ENV": "production",
+    "RACK_ENV": "production",
+    "RAILS_SERVE_STATIC_FILES": "true",
+    "DATO_API_TOKEN": "XXX"
+  }
+}

@@ -1,24 +1,23 @@
-# README
+# Rails DatoCMS template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo contains a working Rails website integrated with content coming from this [DatoCMS administrative area](https://dashboard.datocms.com/account/sites/template?name=Rails+demo&siteId=5546).
 
-Things you may want to cover:
+## Usage
 
-* Ruby version
+First, install the dependencies of this project:
 
-* System dependencies
+```
+bundle install
+```
 
-* Configuration
+Add an `.env` file containing the read-only API token of your DatoCMS site:
 
-* Database creation
+```
+echo 'DATO_API_TOKEN=abc123' >> .env
+```
 
-* Database initialization
+Then, to run this website in development mode:
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+bundle exec rails server
+```
