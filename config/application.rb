@@ -17,7 +17,7 @@ module Sonar
     config.autoload_paths << Rails.root.join('lib')
 
     config.datocms_client = Graphlient::Client.new(
-      'https://site-api.datocms.com/graphql',
+      'https://graphql.datocms.com/',
       headers: {
         "Authorization" => "Bearer #{ENV.fetch('DATO_API_TOKEN')}"
       }
