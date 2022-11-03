@@ -1,3 +1,5 @@
+# ⛔️ DEPRECATED ⛔️
+
 # Rails DatoCMS template
 
 This repo contains a working Rails website integrated with content coming from this [DatoCMS administrative area](https://dashboard.datocms.com/projects/new-from-template?repo=datocms/rails-demo).
